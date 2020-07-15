@@ -1,0 +1,293 @@
+content, 
+.main-header {
+	overflow: hidden;
+}
+.col {
+	height: 240px;
+}
+.main {
+	background: #3498DB;
+}
+.secondary {
+	background: #2ECC71;
+}
+.extra {
+	background: #E74C3C;
+}
+/********************
+General
+********************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding-top: 25px;
+	background: #ECF0F1;
+	color: #FFF;
+	font: 1.3em/1.6 sans-serif;
+}
+.wrap {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5;
+}
+
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+
+/******************
+Heading
+*******************/
+.main-header {
+    background: #34495E;
+    border-color: #778899;
+	text-align: center;
+}
+.logo, 
+.main-nav a {
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+}
+.main-nav a {
+	padding: 0 .75em;
+	border-right: 1px dotted;
+	color: rgba(255,255,255, .8);
+	font-size: .7em;
+	line-height: 1rem;
+}
+.main-nav a:hover {
+	text-decoration: underline;
+}
+
+.main-nav a:last-child {
+    border-right: none;
+}
+
+content, 
+.main-header {
+	overflow: hidden;
+}
+.col {
+	height: 240px;
+}
+.main,
+.secondary,
+.extra {
+    color: #FFF;
+	background: #3498DB;
+}
+.secondary {
+	background: #2ECC71;
+}
+.extra {
+	background: #E74C3C;
+}
+
+/* .content {
+    height: 240px;
+    background: #3344ee;
+} */
+
+.slide {
+    color: #FFF;
+    padding: 2.15%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 250px;
+    background-color: cadetblue;
+}
+
+.main-header,
+.col {
+    margin-bottom: 15px;
+    padding: 2.15%;
+    border-radius: 5px;
+}
+    
+
+/*link color*/
+a {
+    color: #34495E;
+}
+
+/*color for nav link*/
+nav a, nav a:visited {
+    color: #fff;
+}
+
+/*selected nav link color*/
+nav a.selected, nav a:hover {
+    color: #cd5c5c;
+}
+
+
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+
+/*****************************
+FOOTER
+*****************************/
+.main-footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+
+}
+
+
+
+/*****************************
+PAGE: ABOUT
+*****************************/
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100px;
+}
+
+
+/*****************************
+PAGE: CONTACT
+*****************************/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+}
+ 
+/*****************************
+COLORS
+*****************************/
+
+/*SITE BODY*/
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+
+/*nav background on mobile*/
+
+/*logo text */
+h1, h2 {
+    color: #ffffff;
+}
+
+/*link color*/
+a {
+    color: #34495E;
+}
+
+/*color for nav link*/
+nav a, nav a:visited {
+    color: #fff;
+}
+
+/*selected nav link color*/
+nav a.selected, nav a:hover {
+    color: #cd5c5c;
+}
+
+
+
+/*****************************
+BODY
+*****************************/
+
+
+@media screen and (min-width: 500px) {
+
+    .col {
+        float: left;
+    }
+    .main{
+        width: 65.957446808511%;
+    }
+
+    .secondary {
+        width: 31.914893617021%;
+    }
+
+    .secondary,
+    .extra {
+        margin-left: 2.127659574468%;
+    }
+
+    
+    /* Tablet to Desktop */
+    @media only screen and (min-width: 769px) {
+        .logo {
+            float: left;
+        }        
+
+        .main-nav {
+            float: right;
+        }
+
+        .main {
+            width: 40.425531914884%;
+        }
+        .extra {
+            display: block;
+            width: 23.404255319149%;
+        }
+    }
+
+    /* @media only screen and (min-width: 1024px) {
+        .wrap {
+            width: 980px;
+        }
+        
+    } */    
